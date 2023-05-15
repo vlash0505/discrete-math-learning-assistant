@@ -12,6 +12,20 @@
         android:theme="@style/Theme.DiscreteMathLearningAssistant"
         tools:targetApi="31">
         <activity
+            android:name=".fundamentals.FundamentalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fundamentals.sets_theory.venn_diagrams.VennDiagramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fundamentals.sets_theory.SetsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sets"
+            android:theme="@style/Theme.DiscreteMathLearningAssistant.NoActionBar" />
+        <activity
+            android:name=".fundamentals.sets_theory.SetLawsActivity"
+            android:exported="false" />
+        <activity
             android:name=".CatalogueActivity"
             android:exported="false"
             android:label="@string/title_activity_catalogue"

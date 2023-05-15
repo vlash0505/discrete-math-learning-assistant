@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commutative laws:\nA U B = B U A\nA ∩ B = B ∩ A"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commutative laws:\nA U B = B U A\nA ∩ B = B ∩ A"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Associative laws:\n(A U B) U C = A U (B U C)\n(A ∩ B) ∩ C = A ∩ (B ∩ C)"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distributive laws:\nA U (B ∩ C) = (A U B) ∩ (A U C)\nA ∩ (B U C) = (A ∩ B) U (A ∩ C)"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeMorgan’s laws:\n(A U B)' = A' ∩ B'\n(A ∩ B)' = A' U B'"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complement laws:\nA U A' = U\nA ∩ A' = ∅"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Double complement law:\n(A')' = A"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idempotent laws:\nA U A = A\nA ∩ A = A"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absorption laws:\nA U (A ∩ B) = A\nA ∩ (A U B) = A"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dominance laws:\nA U U = U\nA ∩ ∅ = ∅"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Identity laws:\nA U ∅ = A\nA ∩ U = A"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

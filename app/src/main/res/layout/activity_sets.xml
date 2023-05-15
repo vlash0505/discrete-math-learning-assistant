@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white" />
+
+
+    <EditText
+        android:id="@+id/etSet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter elements of set 1 separated by commas" />
+
+    <EditText
+        android:id="@+id/etSet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter elements of set 2 separated by commas" />
+
+    <Button
+        android:id="@+id/button_union"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Union" />
+
+    <Button
+        android:id="@+id/button_intersection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Intersection" />
+
+    <Button
+        android:id="@+id/button_difference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Difference" />
+
+    <Button
+        android:id="@+id/button_symmetric_difference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Symmetric Difference" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnVennDiagrams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venn Diagrams" />
+
+    <Button
+        android:id="@+id/btnRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laws" />
+
+</LinearLayout>
