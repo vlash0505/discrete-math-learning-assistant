@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.discretemathlearningassistant.combinatorics.CombinatoricsTerminologyActivity
 import com.example.discretemathlearningassistant.fundamentals.functions.FunctionTerminologyActivity
 import com.example.discretemathlearningassistant.fundamentals.sets_theory.SetsActivity
 import com.example.discretemathlearningassistant.graphs.GraphTheoryActivity
@@ -28,6 +29,7 @@ class CatalogueActivity : AppCompatActivity() {
         btnRecursion = findViewById(R.id.btnRecursion)
         btnTrees = findViewById(R.id.btnTrees)
         btnGraphTheory = findViewById(R.id.btnGraphTheory)
+        btnCombinatorics = findViewById(R.id.btnCombinatorics)
         btnSetsTheory.setOnClickListener {
             val intent = Intent(this, SetsActivity::class.java)
             startActivity(intent)
@@ -46,6 +48,10 @@ class CatalogueActivity : AppCompatActivity() {
         }
         btnTrees.setOnClickListener {
             val intent = Intent(this, TreeTerminologyActivity::class.java)
+            startActivity(intent)
+        }
+        btnCombinatorics.setOnClickListener {
+            val intent = Intent(this, CombinatoricsTerminologyActivity::class.java)
             startActivity(intent)
         }
     }

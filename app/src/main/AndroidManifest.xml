@@ -12,6 +12,15 @@
         android:theme="@style/Theme.DiscreteMathLearningAssistant"
         tools:targetApi="31">
         <activity
+            android:name=".trees.TreeTraversalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".combinatorics.CombinatoricsRulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".combinatorics.CombinatoricsTerminologyActivity"
+            android:exported="false" />
+        <activity
             android:name=".trees.TreeTerminologyActivity"
             android:exported="false" />
         <activity
