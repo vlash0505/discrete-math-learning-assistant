@@ -12,10 +12,10 @@
         android:theme="@style/Theme.DiscreteMathLearningAssistant"
         tools:targetApi="31">
         <activity
-            android:name=".recursion.RecursionTerminologyActivity"
+            android:name=".trees.TreeTerminologyActivity"
             android:exported="false" />
         <activity
-            android:name=".RecursionActivity"
+            android:name=".recursion.RecursionTerminologyActivity"
             android:exported="false" />
         <activity
             android:name=".graphs.GraphTheoryActivity"

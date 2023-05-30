@@ -8,6 +8,7 @@ import com.example.discretemathlearningassistant.fundamentals.functions.Function
 import com.example.discretemathlearningassistant.fundamentals.sets_theory.SetsActivity
 import com.example.discretemathlearningassistant.graphs.GraphTheoryActivity
 import com.example.discretemathlearningassistant.recursion.RecursionTerminologyActivity
+import com.example.discretemathlearningassistant.trees.TreeTerminologyActivity
 
 class CatalogueActivity : AppCompatActivity() {
     private lateinit var btnSetsTheory: Button
@@ -24,8 +25,9 @@ class CatalogueActivity : AppCompatActivity() {
 
         btnSetsTheory = findViewById(R.id.btnSetsTheory)
         btnFunctions = findViewById(R.id.btnFunctions)
-        btnGraphTheory = findViewById(R.id.btnGraphTheory)
         btnRecursion = findViewById(R.id.btnRecursion)
+        btnTrees = findViewById(R.id.btnTrees)
+        btnGraphTheory = findViewById(R.id.btnGraphTheory)
         btnSetsTheory.setOnClickListener {
             val intent = Intent(this, SetsActivity::class.java)
             startActivity(intent)
@@ -40,6 +42,10 @@ class CatalogueActivity : AppCompatActivity() {
         }
         btnRecursion.setOnClickListener {
             val intent = Intent(this, RecursionTerminologyActivity::class.java)
+            startActivity(intent)
+        }
+        btnTrees.setOnClickListener {
+            val intent = Intent(this, TreeTerminologyActivity::class.java)
             startActivity(intent)
         }
     }
