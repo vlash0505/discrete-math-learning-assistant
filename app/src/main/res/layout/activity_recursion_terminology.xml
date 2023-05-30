@@ -10,68 +10,120 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <com.example.discretemathlearningassistant.recursion.visual.HanoiView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Recursion definition" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Recursion definition:\nA process in which a function calls itself as a subroutine."
+            android:layout_marginBottom="16dp"
+            android:text="A process in which a function calls itself as a subroutine."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Base case:\nThe condition under which a recursive function does not call itself, thereby ending the repeated execution."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Base case" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The condition under which a recursive function does not call itself, thereby ending the repeated execution."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Recursive case:\nThe part of a recursive function that does call itself, thereby continuing the repetition."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Recursive case" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The part of a recursive function that does call itself, thereby continuing the repetition."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Tail recursion:\nA special case of recursion where the recursive call is the last operation in the recursive function."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Tail recursion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A special case of recursion where the recursive call is the last operation in the recursive function."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Head recursion:\nA special case of recursion where the first statement in the recursive function is the recursive call."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Head recursion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A special case of recursion where the first statement in the recursive function is the recursive call."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Tree recursion:\nA form of recursion where the function calls itself more than once."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Tree recursion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A form of recursion where the function calls itself more than once."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Mutual recursion:\nOccurs when two or more functions call each other in a circular manner."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Mutual recursion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Occurs when two or more functions call each other in a circular manner."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Indirect recursion:\nA form of recursion where the function calls another function, and eventually results in the first function being called again."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Indirect recursion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A form of recursion where the function calls another function, and eventually results in the first function being called again."
             android:textSize="16sp"/>
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnHanoi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hanoi towers" />

@@ -13,56 +13,113 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Factorial (n!):\nThis formula calculates the product of an integer and all the integers below it. For example, the factorial of 5 (5!) is 5*4*3*2*1 = 120."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Factorial (n!)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="This formula calculates the product of an integer and all the integers below it. For example, the factorial of 5 (5!) is 5*4*3*2*1 = 120."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Permutation (nPr):\nThe number of ways to arrange 'r' items from 'n' items where order matters. The formula is nPr = n! / (n-r)!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Permutation (nPr)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The number of ways to arrange 'r' items from 'n' items where order matters. The formula is nPr = n! / (n-r)!"
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Combination (nCr):\nThe number of ways to select 'r' items from 'n' items where order does not matter. The formula is nCr = n! / r!(n-r)!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Combination (nCr)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The number of ways to select 'r' items from 'n' items where order does not matter. The formula is nCr = n! / r!(n-r)!"
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Binomial Theorem:\nThe formula is (x + y)^n = Σ (from k=0 to n) (n choose k) * x^(n-k) * y^k."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Binomial Theorem" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The formula is (x + y)^n = Σ (from k=0 to n) (n choose k) * x^(n-k) * y^k."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Product Rule:\nIf there are n ways to do one thing, and m ways to do another, then there are n*m ways to do both."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Product Rule" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="If there are n ways to do one thing, and m ways to do another, then there are n*m ways to do both."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Sum Rule:\nIf there are n ways to do one thing and m ways to do another, and you cannot do both, then there are n+m ways to choose one."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Sum Rule" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="If there are n ways to do one thing and m ways to do another, and you cannot do both, then there are n+m ways to choose one."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Difference Rule:\nIf there are n ways to do something, and m of these ways are not allowed, then there are n-m ways to do it."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Difference Rule" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="If there are n ways to do something, and m of these ways are not allowed, then there are n-m ways to do it."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Multiplication Principle of Counting:\nThe number of ways to perform a series of tasks is equal to the product of the number of ways each task can be performed."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Multiplication Principle of Counting" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The number of ways to perform a series of tasks is equal to the product of the number of ways each task can be performed."
             android:textSize="16sp"/>
     </LinearLayout>
 

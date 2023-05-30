@@ -25,7 +25,7 @@
             android:text="A graph is a set of vertices and a collection of edges that each connect a pair of vertices." />
 
         <com.example.discretemathlearningassistant.graphs.visual.GraphView
-            android:id="@+id/graph_theory_image3"
+            android:gravity="center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="200dp" />
 
@@ -41,6 +41,7 @@
             android:id="@+id/graph_theory_description2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="A vertex (also called a node) is a fundamental part of a graph. It can have a name, which is called the 'key'." />
 
@@ -56,6 +57,7 @@
             android:id="@+id/graph_theory_description3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="An edge is another fundamental part of a graph. An edge connects two vertices to show that there is a relationship between them." />
 
@@ -71,6 +73,7 @@
             android:id="@+id/graph_theory_description4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="Two vertices are said to be adjacent if they are both endpoints of the same edge." />
 
@@ -86,6 +89,7 @@
             android:id="@+id/graph_theory_description5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="A path in a graph is a sequence of vertices where each adjacent pair is connected by an edge." />
 
@@ -101,6 +105,7 @@
             android:id="@+id/graph_theory_description6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="A cycle in a graph is a path that starts and ends at the same vertex." />
 
@@ -116,6 +121,7 @@
             android:id="@+id/graph_theory_description7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="A graph is connected when there is a path between every pair of vertices. In a connected graph, there are no unreachable vertices." />
 
@@ -131,11 +137,12 @@
             android:id="@+id/graph_theory_description8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="A directed graph, also called a digraph, is a graph where all edges are directed. Each edge has a direction from one vertex to another." />
 
         <com.example.discretemathlearningassistant.graphs.visual.DirectedGraphView
-            android:id="@+id/graph_theory_image8"
+            android:gravity="center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="200dp" />
 
@@ -151,6 +158,7 @@
             android:id="@+id/graph_theory_description9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="A weighted graph is a graph in which each edge is assigned a weight or cost. These weights can represent things like distance, cost, etc." />
 
@@ -166,7 +174,14 @@
             android:id="@+id/graph_theory_description10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:text="A planar graph is a graph that can be drawn in a plane without edges crossing. Every planar graph can be drawn so that no edges intersect each other." />
+
+        <Button
+            android:id="@+id/btnGraphTraversals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Graph traversals" />
     </LinearLayout>
 </ScrollView>

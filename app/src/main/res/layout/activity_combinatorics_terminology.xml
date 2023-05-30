@@ -13,70 +13,141 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Combinatorics:\nAn area of mathematics primarily concerned with counting, both as a means and an end in obtaining results, and certain properties of finite structures."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Combinatorics" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="An area of mathematics primarily concerned with counting, both as a means and an end in obtaining results, and certain properties of finite structures."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Permutation:\nThe arrangement of objects in a specific order."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Permutation" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The arrangement of objects in a specific order."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Combination:\nA selection of items where order does not matter."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Combination" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A selection of items where order does not matter."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Factorial:\nThe product of an integer and all the integers below it; e.g., factorial four (4!) is equal to 24."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Factorial" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The product of an integer and all the integers below it; e.g., factorial four (4!) is equal to 24."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Pigeonhole Principle:\nIf n items are put into m containers, with n > m, then at least one container must contain more than one item."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Pigeonhole Principle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="If n items are put into m containers, with n > m, then at least one container must contain more than one item."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Binomial Coefficients:\nThe number of ways to choose a smaller set from a larger set, without regard to the order of selection."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Binomial Coefficients" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The number of ways to choose a smaller set from a larger set, without regard to the order of selection."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Principle of Inclusion and Exclusion:\nA formula used for calculating the number of elements in the union of multiple sets."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Principle of Inclusion and Exclusion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A formula used for calculating the number of elements in the union of multiple sets."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Multinomial Coefficients:\nThe number of ways to divide a set into multiple smaller sets."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Multinomial Coefficients" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="The number of ways to divide a set into multiple smaller sets."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Partitions:\nA way to write a number as a sum of positive integers."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Partitions" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A way to write a number as a sum of positive integers."
             android:textSize="16sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Combinatorial Design:\nA set of systems for finite sets whose intersections have certain properties."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Combinatorial Design" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="A set of systems for finite sets whose intersections have certain properties."
             android:textSize="16sp"/>
 
         <Button

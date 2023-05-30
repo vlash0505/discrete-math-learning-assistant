@@ -17,7 +17,7 @@ class HanoiView(context: Context?, attrs: AttributeSet?) : View(context, attrs) 
 
     private val numberOfDisks = 5
 
-    private val rods = List(5) { Stack<Int>() }
+    private val rods = List(3) { Stack<Int>() }
     private val diskHeight = 20f
     private val diskMaxWidth = 200f
     private val diskMinWidth = 60f
