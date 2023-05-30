@@ -44,22 +44,40 @@
             android:orientation="vertical" >
 
             <Button
-                android:id="@+id/btnFundamentals"
+                android:id="@+id/btnSetsTheory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fundamentals" />
+                android:text="Sets theory" />
 
             <Button
-                android:id="@+id/btnTest"
+                android:id="@+id/btnFunctions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Topic2" />
+                android:text="Functions" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnRecursion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Topic3" />
+                android:text="Recursion" />
+
+            <Button
+                android:id="@+id/btnTrees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trees" />
+
+            <Button
+                android:id="@+id/btnGraphTheory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Graph theory" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Combinatorics" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

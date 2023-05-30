@@ -12,6 +12,27 @@
         android:theme="@style/Theme.DiscreteMathLearningAssistant"
         tools:targetApi="31">
         <activity
+            android:name=".recursion.RecursionTerminologyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecursionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".graphs.GraphTheoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fundamentals.functions.visual.SurjectionView"
+            android:exported="false" />
+        <activity
+            android:name=".fundamentals.functions.visual.InjectionView"
+            android:exported="false" />
+        <activity
+            android:name=".fundamentals.functions.visual.BijectionView"
+            android:exported="false" />
+        <activity
+            android:name=".fundamentals.functions.FunctionTerminologyActivity"
+            android:exported="false" />
+        <activity
             android:name=".fundamentals.FundamentalsActivity"
             android:exported="false" />
         <activity

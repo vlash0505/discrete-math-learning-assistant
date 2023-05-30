@@ -16,6 +16,7 @@ class IntersectionVennDiagramView(context: Context, attrs: AttributeSet?) : View
         textSize = 40f
         color = Color.BLACK
     }
+    private val path = Path()
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
@@ -24,13 +25,13 @@ class IntersectionVennDiagramView(context: Context, attrs: AttributeSet?) : View
         val height = height.toFloat()
 
         // Draw the union region
-        val pathA = Path().apply {
+        val pathA = path.apply {
             addCircle(width * 0.4f, height * 0.5f, height * 0.3f, Path.Direction.CW)
         }
-        val pathB = Path().apply {
+        val pathB = path.apply {
             addCircle(width * 0.6f, height * 0.5f, height * 0.3f, Path.Direction.CW)
         }
-        val intersectionPath = Path().apply {
+        val intersectionPath = path.apply {
             op(pathA, pathB, Path.Op.INTERSECT)
         }
         circlePaint.color = Color.argb(127, 255, 127, 0)
